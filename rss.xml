@@ -1,0 +1,17 @@
+<rss version="2.0" encoding = "UTF-8">
+<channel>
+    <title>Stomatološka ordinacija Perić RSS</title>
+        <link>https://nenadjevtic01.github.io/rss.xml</link>
+        <description/>
+    <item>
+        <title>Estetska stomatologija</title>
+            <link>https://nenadjevtic01.github.io/pages/Usluge.html</link>
+            <description>Usluge estetske stomatologije</description>
+        </item>
+    <item>
+        <title>Protetika</title>
+            <link>https://nenadjevtic01.github.io/pages/Usluge.html</link>
+            <description>Usluge stomatološke protetike</description>
+    </item>
+</channel>
+</rss>
