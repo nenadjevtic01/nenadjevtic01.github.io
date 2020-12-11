@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 /* Stranica index.html */
 
 *{
 	margin:0px;
 	padding:0px;
-	font-family: 'PT Serif', serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 header{
@@ -606,7 +606,7 @@ textarea{
 	resize:none;
 	width:345px;
 	height:90px;
-	font-family: 'PT Serif', serif;
+	font-family: 'Titillium Web', sans-serif;
 	font-size: 16px;
 	border-radius:5px;
 	border: 0px solid;
