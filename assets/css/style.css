@@ -30,6 +30,10 @@ header{
 	text-align:center;
 }
 
+span{
+	text-decoration: underline;
+}
+
 .meni ul li a{
 	text-decoration:none;
 	font-weight:700;
