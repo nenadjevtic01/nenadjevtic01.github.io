@@ -148,11 +148,13 @@
         width:80%;
         display: flex;
         align-content: center;
+        height:auto;
         padding: 20px;
     }
 
     .vestina p{
         width:100%;
+        margin:20px;
     }
 
     .vestina img{
