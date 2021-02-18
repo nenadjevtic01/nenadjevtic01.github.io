@@ -85,7 +85,7 @@ nav ul li a:hover{
     position: absolute;
     top: 40%;
     transform: translate(-50%, -50%);
-    width: 35%;
+    width: 400px;
   }
 
   .fa-desktop{
