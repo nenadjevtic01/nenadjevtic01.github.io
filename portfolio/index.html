@@ -30,11 +30,12 @@
                             <li><a href="#skills"><i class="fas fa-laptop-code"></i></a></li>
                             <li><a href="#jobs"><i class="fas fa-tasks"></i></a></li>
                             <li><a href="#aboutme"><i class="far fa-user"></i></a></li>
-                            <li><i class="fas fa-inbox"></i></li>
+                            <li><a href="#contact"><i class="fas fa-phone-square"></i></a></li>
                         </ul>
                     </nav>
                 </div>  
             </div>
+            
             <div id="skills">
                 <h1 class="fade-in"><i class="fas fa-laptop-code"></i>&nbsp;Skills</h1></br>
                 <div class="vestine">
@@ -73,7 +74,7 @@
                 </div>
             </div>
             <div id="jobs">
-                <h2 class="fade-in"><i class="fas fa-clipboard-check"></i>&nbsp;Projects</h2>
+                <h2 class="fade-in"><i class="fas fa-tasks"></i>&nbsp;Projects</h2>
                 <div class="projekti">
                     <div class="projekat zoom-in">
                         <img src="assets/images/project1.png" alt="Projekat SO Peric"/>
@@ -108,6 +109,36 @@
                             I am very passionate and persistent and i give my best in finishing the tasks thats given to me.
                     </div>
                 </div>
+            </div>
+            <div id="contact">
+                <h2 class="fade-in"><i class="fas fa-phone-square"></i>&nbsp; Contact</h2>
+                    <div class="forma slide-right">
+                        <div class="text">
+                            <p>If you have any question, feel free to ask!</br>
+                            </p>
+                            <ul>
+                                <li><i class="fas fa-mobile-alt"></i>&nbsp;<span>Phone number&#58;</span> 064&#47;047&#8208;27&#8208;01</li>
+                                <li><i class="fas fa-at"></i>&nbsp;<span>Email&#58;</span> nenad&#46;jevtic&#46;60&#46;20&#64;ict&#46;edu&#46;rs</li>
+                                <li><i class="fas fa-map-marker-alt"></i>&nbsp;<span>Address&#58;</span> Zdravka Čelara br&#46;16&#44; 11000 Beograd</li>
+                            </ul>
+                        </div>
+                        <form method="GET" id="Contact" name="Contact Form">
+                            <label for="ime">First name&#58;</label><br/>
+                                <input type="text" id="ime" name="ime" required="required"/><br/>
+                            <label for="prezime">Last name&#58;</label><br/>
+                                <input type="text" id="prezime" name="prezime" required="required"/><br/>
+                            <label for="email">Email&#58;</label><br/>
+                                <input type="email" name="email" id="email" required="required"/><br/>
+                            <label for="kontaktTelefon">Phone number&#58;</label><br/>
+                                <input type="number" id="kontaktTelefon" name="kontaktTelefon" /><br/>
+                            <label for="poruka">Message&#58;</label><br/>
+                                <textarea name="poruka" form="Kontakt" required="required" maxlength="150" placeholder="Max lenght is 150 characters."></textarea><br/>
+                                <div class="dugmad">
+                                    <input type="submit" name="posalji" id="posalji" value="Send"/>
+                                    <input type="reset" name="obrisi" id="obrisi" value="Cancel"/>
+                                </div>
+                        </form>
+                    </div>
             </div>
     </body>
 </html>
