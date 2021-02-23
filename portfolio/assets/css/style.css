@@ -5,6 +5,12 @@
     margin:0px;
     font-family: 'Roboto', sans-serif;
 }
+
+html{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
 a{
     color:#fff;
 }
@@ -29,7 +35,7 @@ nav{
 nav ul{
     list-style-type: none;
     color:#fff;
-    font-size:30px;
+    font-size:25px;
     position: fixed;
     background-color: #1c1f1d;
     border-radius: 10px;
@@ -146,22 +152,22 @@ nav ul li a:hover{
 
 /* Skills section */
 
-#skills h1, #jobs h2, #aboutme h2{
+#skills h1, #jobs h2, #aboutme h2, #contact h2{
     width:80%;
     margin:0px auto;
     text-align: center;
     color:#fff;
     margin-top:35px;
     margin-bottom: 15px;
-    font-size:32px;
+    font-size:35px;
     opacity: 0;
 }
+
 
 #skills{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom:50px;
 }
 
 .vestine{
@@ -171,6 +177,7 @@ nav ul li a:hover{
     justify-content: space-between;
     align-items: center;
     margin-top:15px;
+    margin-bottom:15px;
 }
 
 .projekti{
@@ -398,27 +405,31 @@ a.zoomup:hover{
 }
 
 .oMeni{
-    width:40%;
+    width:65%;
     margin:0px auto;
-    padding: 10px;
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
     background-color: #1c1f1d;
     color:#fff;
     text-align: justify;
     box-shadow: 5px 5px 5px 5px #000;
     opacity: 0;
+    box-sizing: border-box;
 }
 
 .oMeni img{
-    width:300px;
-    margin:45px;
+    width:35%;
+    border-radius:10px 7px 10px 7px;
+    margin:40px 15px 40px 40px;
 }
 
 .oMeni p{
-    width:85%;
-    line-height: 25px;
+    width:80%;
+    line-height: 30px;
+    font-size:20px;
+    margin:20px 20px 20px 0px;
 }
 
 .slide-right{
@@ -431,4 +442,58 @@ a.zoomup:hover{
 @keyframes right{
     from{right:-300px;opacity:0} 
     to{right:0;opacity:1}
+}
+
+.forma{
+    width:50%;
+    margin:20px auto;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color: #1c1f1d;
+    color:#fff;
+    flex-wrap: wrap;
+    box-shadow: 5px 5px 5px 5px #000;
+    opacity: 0;
+    padding: 20px;
+}
+
+form{
+    margin:40px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2;
+}
+
+form input[type="text"],input[type="email"],input[type="number"], textarea{
+    border:2px solid #00a97b;
+    border-radius: 3px;
+    width:270px;
+    height:20px;
+    font-size:18px;
+}
+
+form textarea{
+    resize: none;
+    height:100px;
+    font-size:15px;
+}
+
+form input[type="submit"], input[type="reset"]{
+    width:65px;
+    height:25px;
+    color:#fff;
+    background-color: #00a97b;
+    border-radius: 5px;
+    font-weight: 900;
+}
+
+form input[type="submit"]:hover, input[type="reset"]:hover{
+    color:#00a97b;
+    background-color: #000;
+}
+
+.text ul{
+    margin-top:20px;
+    list-style-type: none;
+    line-height: 2;
 }
