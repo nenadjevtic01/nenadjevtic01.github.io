@@ -15,6 +15,9 @@
         font-size: 40px;
     }
 
+    .oMeni p{
+        font-size:20px;
+    }
 }
 
 @media only screen and (max-width: 1024px){
@@ -23,7 +26,7 @@
     }
 
     nav ul{
-        font-size:25px;
+        font-size:20px;
     }
 
     .index{
@@ -59,10 +62,39 @@
         padding-bottom: 0px;
     }
 
-    #jobs h2{
-        margin-top:20px;
-        margin-bottom:5px;
+
+    .oMeni p{
+        font-size:16px;
     }
+
+    .oMeni img{
+        width:40%;
+        margin:40px 15px 40px 40px;
+    }
+
+    .forma{
+        width:60%;
+    }
+}
+
+@media only screen and (max-width: 890px){
+    .oMeni{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .oMeni p{
+        font-size:16px;
+        line-height: 20px;
+        margin:0px 20px 20px 20px
+    }
+
+    .oMeni img{
+        width:55%;
+        margin:40px 40px 20px 40px;
+    }
+
 }
 
 @media only screen and (max-width: 768px){
@@ -71,7 +103,7 @@
     }
 
     nav ul{
-        font-size:20px;
+        font-size:25px;
     }
 
     nav ul li{
@@ -82,9 +114,6 @@
         margin-bottom:20px;
     }
 
-    #skills h1{
-        font-size:26px;
-    }
 
     .vestina{
         width:40%;
@@ -123,9 +152,28 @@
         width:80%;
         border-radius: 25px 10px 25px 10px;
     }
+
+    .forma{
+        width:65%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .oMeni p{
+        font-size:15px;
+    }
+
+    .text{
+        font-size:15px;
+    }
+
+    .forma{
+        width:60%;
+    }
 }
 
 @media only screen and (max-width: 425px){
+
     nav{
         width:100%;
         justify-content: center;
@@ -135,7 +183,8 @@
         width:100%;
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-evenly;
+        font-size:25px;
     }
 
     .vestine, .projekti{
@@ -190,6 +239,28 @@
         width:90%;
         margin-bottom:20px;
     }
+
+    .oMeni{
+        text-align:none;
+        width:85%;
+    }
+
+    #skills h1, #jobs h2, #aboutme h2{
+        font-size:28px;
+    }
+
+    .text ul li{
+         margin-bottom: 20px;
+         font-size:15px;
+    }
+    
+    .forma{
+        width:75%;
+    }
+
+    form{
+        margin-top:10px;
+    }
 }
 
 @media only screen and (max-width: 375px){
@@ -212,6 +283,26 @@
 
     .vestina,.projekat{
         height:auto;
+    }
+
+    nav ul{
+        font-size:20px;
+    }
+
+    form input[type="text"],input[type="email"],input[type="number"], textarea{
+        width:200px;
+        height:20px;
+        font-size:16px;
+    }
+    
+    form textarea{
+        height:100px;
+        font-size:13px;
+    }
+    
+    form input[type="submit"], input[type="reset"]{
+        width:65px;
+        height:25px;
     }
 }
 
@@ -238,5 +329,14 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .oMeni p{
+        line-height: 1.4;
+        font-size:14px;
+    }
+
+    .text{
+        font-size:14px;
     }
 }
