@@ -1,0 +1,367 @@
+@media only screen and (max-width: 1440px){
+    
+    .animated-title > div div {
+        font-size: 35px;
+        padding: 10px 0px;
+        position: absolute;
+    }
+
+    .animated-title {
+        height: 200px;
+        width:400px;
+    }
+
+    .animated-title > div div {
+        font-size: 40px;
+    }
+
+    .oMeni div p{
+        font-size:20px;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    nav{
+        width:30px;
+    }
+
+    nav ul{
+        font-size:20px;
+    }
+
+    .index{
+        height:70vh;
+    }
+
+    .senka{
+        height:70vh;
+    }
+
+    .vestine{
+        width:80%;
+        justify-content: space-evenly;
+        flex-wrap:wrap;
+    }
+
+    .vestina{
+        width:35%;
+        margin-bottom:35px;
+    }
+
+
+    .animated-title > div div {
+        font-size: 35px;
+    }
+
+    .animated-title {
+        width:350px;
+        height: 150px;
+    }
+
+    #skills{
+        padding-bottom: 0px;
+    }
+
+
+    .oMeni div p{
+        font-size:16px;
+    }
+
+    .oMeni img{
+        width:50%;
+    }
+
+    .forma{
+        width:60%;
+    }
+}
+
+@media only screen and (max-width: 890px){
+
+    .oMeni div p{
+        font-size:16px;
+        margin:10px auto;
+    }
+
+    .oMeni div ul{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        line-height: 2;
+        align-items: center;
+        margin-bottom:15px;
+    }
+
+    .oMeni img{
+        width:55%;
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+    nav{
+        width:25px;
+    }
+
+    nav ul{
+        font-size:25px;
+    }
+
+    nav ul li{
+        margin:20px 15px 0px 15px;
+    }
+    
+    nav ul li:last-child{
+        margin-bottom:20px;
+    }
+
+
+    .vestina{
+        width:40%;
+    }
+
+    .vestina img{
+        width:90px;
+        height:125px;
+    }
+
+    .vestina:last-of-type img{
+        width:120px;
+        height:120px;
+    }
+
+    .vestina p{
+        font-size:16px;
+    }
+
+    .fa-desktop{
+        font-size: 35px;
+    }
+
+    .animated-title > div div {
+        font-size: 30px;
+    }
+
+    .animated-title {
+        left:50%;
+        height: 150px;
+        padding:25px 15px;
+        width:300px;
+    }
+
+    .projekat img{
+        width:80%;
+    }
+
+    .forma{
+        width:65%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .oMeni div p{
+        font-size:15px;
+    }
+
+    .text{
+        font-size:15px;
+    }
+
+    .forma{
+        width:60%;
+    }
+
+    nav ul img{
+        width:55px;
+    }
+}
+
+@media only screen and (max-width: 425px){
+
+    nav{
+        width:100%;
+        justify-content: center;
+        align-items:flex-start;
+    }
+
+    nav ul{
+        width:100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        font-size:25px;
+    }
+
+    .vestine, .projekti{
+        display:flex;
+        width:100%;
+    }
+
+    .vestina,.projekat{
+        width:80%;
+        display: flex;
+        align-content: center;
+        height:auto;
+        padding: 20px;
+    }
+
+
+    .vestina p{
+        width:100%;
+        margin:20px 20px 45px 20px;
+    }
+
+    .vestina img{
+        width:120px;
+        height:150px;
+    }
+
+    .vestina:last-of-type img{
+        width:160px;
+        height:160px;
+        margin-bottom:0px;
+    }
+
+    .fa-desktop{
+        font-size: 30px;
+    }
+
+    .animated-title > div div {
+        font-size: 28px;
+    }
+
+    .animated-title {
+        width: 260px;
+        height: 150px;
+        padding:25px 15px;
+    }
+
+    .card-down, .card-up{
+        animation: opac 2s;
+        animation-fill-mode: forwards;
+    }
+
+    .projekat img{
+        width:90%;
+        margin-bottom:20px;
+    }
+
+    .oMeni{
+        text-align:none;
+        width:85%;
+    }
+
+    #skills h1, #jobs h2, #aboutme h2{
+        font-size:28px;
+    }
+
+    .text ul li{
+         margin-bottom: 20px;
+         font-size:15px;
+    }
+    
+    .forma{
+        width:75%;
+    }
+
+    form{
+        margin-top:10px;
+    }
+
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social a i,.sitemap a i{
+        font-size:22px;
+        margin-top:30px;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .animated-title {
+        position: absolute;
+        left:50%;
+        top:40%;
+        width:240px;
+        height: 150px;
+        padding:25px 15px;
+    }
+
+    .fa-desktop{
+        font-size: 25px;
+    }
+
+    .animated-title > div div {
+        font-size: 25px;
+    }
+
+    .vestina,.projekat{
+        height:auto;
+    }
+
+    nav ul{
+        font-size:20px;
+    }
+
+    form input[type="text"],input[type="email"],input[type="number"], textarea{
+        height:20px;
+        font-size:16px;
+    }
+    
+    form textarea{
+        height:100px;
+        font-size:13px;
+    }
+    
+    form input[type="submit"], input[type="reset"]{
+        width:65px;
+        height:25px;
+    }
+
+    .oMeni div ul{
+        font-size:15px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .animated-title {
+        position: absolute;
+        left:50%;
+        top:40%;
+        width:230px;
+        height: 150px;
+        padding:25px 15px;
+    }
+
+    .fa-desktop{
+        font-size: 20px;
+    }
+
+    .animated-title > div div {
+        font-size: 25px;
+    }
+
+    .projekat ul{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .oMeni div p{
+        line-height: 1.4;
+        font-size:14px;
+    }
+
+    .text{
+        font-size:14px;
+    }
+
+    form input[type="text"], form input[type="email"],form input[type="number"],form textarea{
+        width:220px;
+    }
+}

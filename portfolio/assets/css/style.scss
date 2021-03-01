@@ -1,0 +1,584 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+$green: #00a97b;
+$white: #fff;
+$black: #000;
+$dark-gray:#1c1f1d;
+
+*{
+    padding: 0px;
+    margin:0px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+html{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+a{
+    color:$white;
+    display:flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+body{
+    background-color:#323633;
+}
+
+header{
+    box-sizing: border-box;
+}
+
+nav{
+    height:100vh;
+    width:50px;
+    display: flex;
+    align-items: center;
+
+    ul{
+        list-style-type: none;
+        color:$white;
+        font-size:25px;
+        position: fixed;
+        background-color: $dark-gray;
+        border-radius: 10px;
+        z-index:100;
+
+        li{
+            display: flex;
+            justify-content: center;
+            margin:25px 15px 0px 15px;
+
+            &:last-child{
+                margin-bottom:25px;
+            }
+
+            a:active, a:visited{
+                color:$white;
+            }
+
+            a:hover{
+                color:$green;
+            }
+
+
+            &:first-of-type{
+                margin:0px;
+                padding: 0px;
+            }
+            img{
+                width:70px;
+            }
+        }
+    }
+}
+
+
+/* Home section */
+
+.index{
+    background-image: url("../images/pozadina1.jpg");
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    height:80vh;
+}
+
+@keyframes showTopText {
+    0% { transform: translate3d(0, 100%, 0); }
+    40%, 60% { transform: translate3d(0, 50%, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+  }
+
+  @keyframes showBottomText {
+    0% { transform: translate3d(0, -100%, 0); }
+    100% { transform: translate3d(0, 0, 0); }
+  }
+
+
+.fa-desktop{
+      font-size: 40px;
+  }
+
+.animated-title {
+    color: #fff;
+    font-family: Roboto, Arial, sans-serif;
+    padding:25px;
+    border-radius: 45px;
+    height: 300px;
+    left: 60%;
+    position: absolute;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+
+    > div {
+        height: 50%;
+        overflow: hidden;
+        position: absolute;
+        width: 100%;
+
+        div {
+            font-size: 40px;
+            padding: 10px 0px;
+            position: absolute;
+
+            span {
+                display: block;
+            }
+        }
+    }
+
+    > div.text-top {
+        border-bottom: 5px solid #00a97b;
+        top: 0;
+
+        div {
+            animation: showTopText 1s;
+            animation-delay: 0.5s;
+            animation-fill-mode: forwards;
+            bottom: 0;
+            transform: translate(0, 100%);
+        }
+
+        span:first-child {
+            color: #00a97b;
+        }
+    }
+
+
+    > div.text-bottom {
+        bottom: 0;
+
+        div {
+            animation: showBottomText 0.5s;
+            animation-delay: 1.75s;
+            animation-fill-mode: forwards;
+            top: 0;
+            transform: translate(0, -100%);
+        }
+    }
+}
+
+.senka{
+    background-color: rgba(0,0,0,0.75);
+    width:100%;
+    height: 80vh;
+    position: relative;
+}
+
+#skills1{
+    position: absolute;
+    bottom:0%;
+    height:50px;
+    width:100%;
+}
+
+/* Skills section */
+
+#skills h1, #jobs h2, #aboutme h2, #contact h2{
+    width:80%;
+    margin:0px auto;
+    text-align: center;
+    color:$white;
+    margin-top:35px;
+    margin-bottom: 25px;
+    font-size:35px;
+    opacity: 0;
+}
+
+#skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vestine{
+    width:80%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.projekti{
+    margin:10px auto;
+    display:flex;
+    flex-direction: column;
+}
+
+.vestina{
+    background-color: $dark-gray;
+    color:$white;
+    width:20%;
+    height:400px;
+    display:flex;
+    justify-content: center;
+    align-self: flex-end; 
+    flex-wrap: wrap;
+    box-shadow: 5px 5px 5px 5px $black;
+    padding:15px;
+    opacity: 0;
+
+    img{
+        width:130px;
+        height:180px;
+    }
+
+    :last-of-type img{
+        width:160px;
+    }
+
+    p{
+        width:100%;
+        height:max-content;
+        margin:10px;
+    }
+}
+
+.progress {
+    background: rgba(255,255,255,0.1);
+    border-radius: 100px;
+    align-items: center;
+    position: absolute;
+    bottom:4%;
+    padding: 0px 5px;
+    display: flex;
+    height: 15px;
+    width: 80%;
+  }
+
+.progress-45 h5, .progress-70 h5, .progress-85 h5, .progress-90 h5{
+    color:$white;
+    margin:1px;
+}
+
+.progress-90{
+    box-shadow: 0 10px 40px -10px $white;
+    border-radius: 100px;
+    background-color:$green;
+    height: 6px;
+    width:75%;
+}
+
+.progress-85{
+    box-shadow: 0 10px 40px -10px $white;
+    border-radius: 100px;
+    background-color:$green;
+    height: 6px;
+    width:70%;
+}
+
+.progress-70{
+    box-shadow: 0 10px 40px -10px $white;
+    border-radius: 100px;
+    background-color:$green;
+    height: 6px;
+    width:60%;
+}
+
+.progress-45{
+    box-shadow: 0 10px 40px -10px $white;
+    border-radius: 100px;
+    background-color:$green;
+    height: 6px;
+    width:35%;
+}
+
+.projekat{
+    width:70%;
+    margin-top:10px;
+    margin-bottom:50px;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    background-color: $dark-gray;
+    color:$white;
+    text-align: justify;
+    flex-wrap: wrap;
+    box-shadow: 5px 5px 5px 5px $black;
+    transform: scale(0);
+    padding-top:15px;
+
+    img{
+        width:60%;
+        margin:15px;
+        border-radius: 5px;
+    }
+
+    ul{
+        display:flex;
+        flex-direction: row;
+
+        li{
+            margin:15px;
+        }
+    }
+
+    &:last-of-type{
+        margin-bottom:25px;
+    }
+}
+
+
+.fade-in{
+    animation:opac 2s;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes opac{
+    from{opacity:0} 
+    to{opacity:1}
+}
+
+.card-up{  
+    position: relative;
+    animation:up 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+.card-down{
+    position: relative;
+    animation:down 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes down{
+    from{top:-200px;opacity:0} 
+    to{top:0;opacity:1}
+}
+
+@keyframes up{
+    from{bottom:-200px;opacity:0} 
+    to{bottom:0;opacity:1}
+}
+
+.zoom-in {
+    animation:zoom 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes zoom{
+    from{transform:scale(0)} 
+    to{transform:scale(1)}
+}
+
+a.zoomup:hover{
+    animation:zoomup 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes zoomup{
+    from{transform:scale(1)} 
+    to{transform:scale(1.1)}
+}
+
+.btn {		
+	position: relative;	
+	padding: 15px;
+    margin:10px;
+	font-size: 16px;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);	
+	cursor: pointer;
+	user-select: none;
+
+    &:before, &:after {
+        content: '';
+        position: absolute;	
+        transition: inherit;
+        z-index: -1;
+    }
+
+    &:hover {
+        color: $green;
+        transition-delay: .5s;
+    }
+
+    &:hover:before {
+        transition-delay: 0s;
+    }
+
+    &:hover:after {
+        background: $black;
+        transition-delay: .35s;
+    }
+}
+
+.from-left{
+    &:before, &:after{
+        top: 0;
+	    width: 0;
+	    height: 100%;
+    }
+
+    &:before {
+	right: 0;
+	border: 1px solid $black;
+	border-left: 0;
+	border-right: 0;	
+    }
+
+    &:after {
+        left: 0;
+    }
+
+    &:hover:before, &:hover:after{
+        width:100%;
+    }
+}
+
+.oMeni{
+    width:65%;
+    margin:0px auto;
+    display:flex;
+    flex-direction: column;
+    background-color: $dark-gray;
+    color:$white;
+    box-shadow: 5px 5px 5px 5px $black;
+    opacity: 0;
+    box-sizing: border-box;
+
+    img{
+        width:35%;
+        border-radius:10px 7px 10px 7px;
+        margin:25px auto;
+    }
+    
+    div{
+        p{
+            width:80%;
+            line-height: 30px;
+            font-size:20px;
+            margin:0px auto;
+            text-align: justify;
+        }
+
+        ul{
+            list-style-type: none;
+            margin:15px 0px 25px 0px;
+            text-align: center;
+        }
+    }
+}
+
+
+.slide-right{
+    position:relative;
+    animation:right 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+    
+@keyframes right{
+    from{right:-300px;opacity:0} 
+    to{right:0;opacity:1}
+}
+
+.forma{
+    width:50%;
+    margin:20px auto;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color: $dark-gray;
+    color:$white;
+    flex-wrap: wrap;
+    box-shadow: 5px 5px 5px 5px $black;
+    opacity: 0;
+    padding: 20px;
+}
+
+form{
+    margin:40px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2;
+
+    input[type="text"],input[type="email"],input[type="number"], textarea{
+        border:3px solid #323633;
+        border-radius: 3px;
+        width:270px;
+        height:20px;
+        font-size:15px;
+        outline: none;
+        padding:2px;
+
+        &:focus{
+            border-color:$green;
+        }
+    }
+
+    textarea{
+        resize: none;
+        height:100px;
+        font-size:15px;
+    }
+
+    input[type="submit"], input[type="reset"]{
+        width:65px;
+        height:25px;
+        color:$white;
+        background-color: $green;
+        border-radius: 5px;
+        font-weight: 900;
+        margin:5px 10px;
+
+        &:hover{
+            color:$green;
+            background-color: $black;
+            animation:zoomup 1s;
+            animation-fill-mode: forwards;
+        }
+    }
+}
+
+.text ul{
+    margin-top:20px;
+    list-style-type: none;
+    line-height: 2;
+}
+
+footer{
+    width:100%;
+    background-color: $dark-gray;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap:wrap;
+}
+
+.social,.sitemap{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+
+    a i{
+        font-size:26px;
+        margin:20px 10px;
+
+        &:hover{
+            color:$green;
+            animation:zoomup 1s;
+            animation-fill-mode: forwards;
+        }
+    }
+}
+
+.right{
+    a:hover{
+        color:$green;
+    }
+}
