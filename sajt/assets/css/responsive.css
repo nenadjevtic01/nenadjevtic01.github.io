@@ -1,0 +1,19 @@
+@media screen and (max-width: 425px){
+    #logo a img{
+        width:140%;
+    }
+
+    .info ul li{
+        font-size:16px;
+    }
+}
+
+@media screen and (max-width: 625px){
+    .slide3,.slide1{
+        background-position: top right;
+    }
+
+    .info ul li{
+        margin-left: -40px;
+    }
+}
