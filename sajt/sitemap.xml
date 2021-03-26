@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://nenadjevtic01.github.io/sajt/index.html</loc>
+        <lastmod>2021-26-03</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1</priority>
+    </url>
+    <url>
+        <loc>https://nenadjevtic01.github.io/sajt/pages/usluge.html</loc>
+        <lastmod>2021-26-03</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://nenadjevtic01.github.io/sajt/pages/galerija.html</loc>
+        <lastmod>2021-26-03</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://nenadjevtic01.github.io/sajt/pages/kontakt.html</loc>
+        <lastmod>2021-26-03</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+</urlset>

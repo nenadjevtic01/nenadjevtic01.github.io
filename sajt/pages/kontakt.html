@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kontakt</title>
+        <meta charset="UTF-8"/>
+        <meta name="author" content="Nenad Jevtić 60/20"/>
+        <meta name="keywords" content="veterinarska, ordinacija, peric, pas, ljubimac,kontakt, informacije, pitanja"/>
+        <meta name="description" content="Kontakt veterinarske ordinacije Perić"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link rel="stylesheet" href="../assets/css/style.css" type="text/css"/>
+        <link rel="stylesheet" href="../assets/css/responsive.css" type="text/css"/>
+        <script src="https://kit.fontawesome.com/41bd7e5f70.js" crossorigin="anonymous"></script>
+        <link rel="shortcut icon" href="../assets/images/icon.ico"/>
+    </head>
+    <body>
+        <header class="sticky-top">
+            <div class="container-fluid m-0 p-0 filler-siva">
+                <div class="row border-bottom">
+                    <div class="col-7 d-block d-md-none">
+                        <div class="dropdown p-3">
+                            <button class="btn btn-white bg-white dropdown-toggle font-weight-bold" href="#" type="button" id="Meni1" data-toggle="dropdown" aria-expanded="false">
+                            Meni
+                            </button>
+                        <ul class="dropdown-menu" aria-labelledby="Meni1">
+                            <li><a class="dropdown-item" href="../index.html">Početna</a></li>
+                            <li><a class="dropdown-item" href="usluge.html">Usluge</a></li>
+                            <li><a class="dropdown-item" href="galerija.html">Galerija</a></li>
+                            <li><a class="dropdown-item active" href="kontakt.html">Kontakt <i class="fas fa-paw"></i></a></li>
+                            <li><a class="dropdown-item" href="https://nenadjevtic01.github.io/portfolio" target="_blank">O autoru</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="d-none d-md-block col-md-9">
+                        <div>
+                            <ul class="nav d-flex p-3 font-weight-bold">
+                                <li class="nav-item"><a href="../index.html" class="nav-link">Početna</a></li>
+                                <li class="nav-item"><a href="usluge.html" class="nav-link">Usluge</a></li>
+                                <li class="nav-item"><a href="galerija.html" class="nav-link">Galerija</a></li>
+                                <li class="nav-item"><a href="kontakt.html" class="nav-link active">Kontakt <i class="fas fa-paw"></i></a></li>
+                                <li class="nav-item"><a href="https://nenadjevtic01.github.io/portfolio" target="_blank" class="nav-link">O autoru</a></li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                    <div class="col-4 col-md-2">
+                        <div id="logo" class="position-relative"><a href="../index.html"><img class="rounded-circle p-1 bg-white mt-1 position-absolute" src="../assets/images/Logo.png"/></a></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container-fluid p-0 m-0">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.358671719542!2d20.482220751324594!3d44.8142571844923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7a9609031735%3A0xc17ed71f59ac4725!2z0JLQuNGB0L7QutCwINCY0KbQoiDRiNC60L7Qu9Cw!5e0!3m2!1ssr!2srs!4v1616427767401!5m2!1ssr!2srs" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="container py-4">
+                <div class="pozadina ivica">
+                    <div class="row kontakt w-100 py-4 ivica">
+                        <div class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center info">
+                            <p class="text space">Za bilo kakva pitanja, kontaktirajte nas!</br></p>
+                            <ul>
+                                <li><i class="fas fa-mobile-alt"></i>&nbsp;<span>Kontakt telefon&#58;</span> 064&#47;047&#8208;27&#8208;01</li>
+                                <li><i class="fas fa-at"></i>&nbsp;<span>Email&#58;</span> nenad&#46;jevtic&#46;60&#46;20&#64;ict&#46;edu&#46;rs</li>
+                                <li><i class="fas fa-map-marker-alt"></i>&nbsp;<span>Adresa&#58;</span> Zdravka Čelara br&#46;16&#44; 11000 Beograd</li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-6 d-flex justify-content-center">
+                            <form method="GET" id="Contact" name="Contact Form" >
+                                <label for="ime">Ime&#58;</label><br/>
+                                    <input class="polje" type="text" id="ime" name="ime" required="required"/><br/>
+                                <label for="prezime">Prezime&#58;</label><br/>
+                                    <input class="polje" type="text" id="prezime" name="prezime" required="required"/><br/>
+                                <label for="email">Email&#58;</label><br/>
+                                    <input class="polje" type="email" name="email" id="email" required="required"/><br/>
+                                <label for="kontaktTelefon">Kontakt telefon&#58;</label><br/>
+                                    <input class="polje" type="number" id="kontaktTelefon" name="kontaktTelefon" /><br/>
+                                <label for="poruka">Poruka&#58;</label><br/>
+                                    <textarea class="polje poruka" name="poruka" form="Kontakt" required="required" maxlength="150" placeholder="Max duzina poruke je 150 karaktera."></textarea><br/>
+                                    <div class="d-flex justify-content-around dugmad">
+                                        <input type="submit" name="posalji" id="posalji" value="Pošalji"/>
+                                        <input type="reset" name="obrisi" id="obrisi" value="Odustani"/>
+                                    </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="container-fluid p-0 m-0 filler-siva">
+                <div class="row border-top">
+                    <div class="col-12 col-lg-4 mt-lg-3 mt-1 mb-lg-3 mb-1">
+                        <div class="social d-flex justify-content-center">
+                            <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/"><i class="fab fa-instagram-square"></i></a>
+                            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 mt-lg-3 mt-1 mb-lg-3 mb-1 d-flex justify-content-center autor">
+                        <a href="https://nenadjevtic01.github.io/portfolio" target="_blank">All rights reserved.</a>
+                    </div>
+                    <div class="col-12 col-lg-4 mt-lg-3 mt-1 mb-lg-3 mb-1">
+                        <div class="social d-flex justify-content-center">
+                            <a href="../assets/css/style.scss"><i class="fab fa-sass"></i></a>
+                            <a href="../sitemap.xml"><i class="fas fa-sitemap"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+        <!--JQ BOOTSTRAP-->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    </body>
+</html>
