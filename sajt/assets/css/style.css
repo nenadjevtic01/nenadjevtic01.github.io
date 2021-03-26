@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
+* {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.nav-link.active {
+  color: #FADCAA;
+}
+
+.dropdown-item.active {
+  color: #FADCAA;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+.kontakt {
+  background-color: rgba(176, 176, 176, 0.85);
+}
+
+.meni {
+  background-color: #b0b0b0;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 18px;
+}
+
+.nav-link:hover {
+  color: #FADCAA;
+}
+
+#logo img {
+  width: 150px;
+  border: 1px solid #b0b0b0;
+  z-index: 1;
+}
+
+.filler-siva {
+  background-color: #b0b0b0;
+}
+
+.dropdown .btn {
+  font-size: 18px;
+}
+
+.row {
+  margin: 0px;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 60vh;
+}
+
+.slide1, .slide2, .slide3 {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+.slide1 {
+  background-image: url("../images/slide1.jpg");
+  background-position: top right;
+}
+
+.slide2 {
+  background-image: url("../images/slide2.jpg");
+  background-position: center;
+}
+
+.slide3 {
+  background-image: url("../images/slide3.jpg");
+  background-position: center;
+}
+
+.carousel-caption {
+  background-color: rgba(176, 176, 176, 0.9);
+  border-radius: 5px;
+  color: #000;
+}
+
+.usluga1 img, .usluga2 img {
+  width: 120px;
+  padding: 2px;
+}
+
+.usluga1 {
+  background-color: #c2c2c2;
+  border-bottom: 2px solid #b0b0b0;
+}
+
+.usluga2 {
+  background-color: #b0b0b0;
+  border-bottom: 2px solid #c2c2c2;
+}
+
+.frame1 {
+  background-image: url("../images/oNama.jpg");
+  height: 70vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.oNama {
+  background-color: rgba(176, 176, 176, 0.9);
+  color: #000;
+}
+
+.social i {
+  font-size: 35px;
+}
+
+.social i, .autor a {
+  color: #fff;
+  padding: 5px;
+}
+
+.autor a {
+  font-size: 18px;
+}
+
+.social i:hover, .autor a:hover {
+  color: #FADCAA;
+}
+
+.flip {
+  position: relative;
+}
+
+.flip > .front,
+.flip > .back {
+  display: block;
+  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+          transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+  -webkit-transition-property: opacity, -webkit-transform;
+  transition-property: opacity, -webkit-transform;
+  transition-property: transform, opacity;
+  transition-property: transform, opacity, -webkit-transform;
+}
+
+.flip > .front {
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+}
+
+.flip > .back {
+  position: absolute;
+  opacity: 0;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.flip:hover > .front {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.flip:hover > .back {
+  opacity: 1;
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+}
+
+.flip {
+  position: relative;
+  margin-right: 2px;
+  margin-bottom: 1em;
+  width: 100%;
+}
+
+.flip > .front,
+.flip > .back {
+  display: block;
+  color: white;
+  width: inherit;
+  background-size: cover !important;
+  background-position: center !important;
+  height: 220px;
+  padding: 1em 1em;
+  background: #313131;
+  border-radius: 10px;
+}
+
+.flip > .front p,
+.flip > .back p {
+  font-size: 0.9125rem;
+  line-height: 160%;
+  color: #999;
+}
+
+.slika1 {
+  background-image: url("../images/slika1.jpg") !important;
+}
+
+.slika2 {
+  background-image: url("../images/slika2.jpg") !important;
+}
+
+.slika3 {
+  background-image: url("../images/slika3.jpg") !important;
+}
+
+.slika4 {
+  background-image: url("../images/slika4.jpg") !important;
+}
+
+.slika5 {
+  background-image: url("../images/slika5.jpg") !important;
+}
+
+.slika6 {
+  background-image: url("../images/slika6.jpg") !important;
+}
+
+.slika7 {
+  background-image: url("../images/slika7.jpg") !important;
+}
+
+.slika8 {
+  background-image: url("../images/slika8.jpg") !important;
+}
+
+.slika9 {
+  background-image: url("../images/slika9.jpg") !important;
+}
+
+.slika10 {
+  background-image: url("../images/slika10.jpg") !important;
+}
+
+.slika11 {
+  background-image: url("../images/slika11.jpg") !important;
+}
+
+.slika12 {
+  background-image: url("../images/slika12.jpg") !important;
+}
+
+.container-fluid iframe {
+  height: 40vh;
+  width: 100%;
+}
+
+.pozadina {
+  background-image: url("../images/kontakt.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.ivica {
+  border-radius: 10px;
+}
+
+.poruka {
+  height: 130px;
+  resize: none;
+}
+
+.polje {
+  width: 250px;
+}
+
+.info ul li {
+  list-style-type: none;
+  margin-left: 10px;
+  line-height: 1.5;
+  font-size: 17px;
+}
+
+.text {
+  font-size: 17px;
+}
+
+.space {
+  letter-spacing: 2px;
+}
+
+input:focus, textarea:focus {
+  border: 2px solid #FADCAA;
+  outline: none;
+}
+
+.dugmad input {
+  width: 75px;
+  font-size: 15px;
+  background-color: #FADCAA;
+  color: #000;
+  border-radius: 5px;
+}
+
+.dugmad input:hover {
+  background-color: #000;
+  color: #FADCAA;
+}
+
+.lista {
+  list-style-type: none;
+  background-color: rgba(176, 176, 176, 0.8);
+  padding: 50px;
+  line-height: 2;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+details ul {
+  font-size: 17px;
+}
+
+details {
+  border: 1px solid #313131;
+}
+
+.pozadina {
+  background-image: url("../images/usluge.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=style.css.map */

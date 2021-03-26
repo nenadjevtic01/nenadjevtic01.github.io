@@ -1,0 +1,31 @@
+@media screen and (max-width: 425px){
+    #logo a img{
+        width:140%;
+    }
+
+    .info ul li{
+        font-size:16px;
+    }
+
+    .lista{
+        padding:10px;
+        font-size:16px;
+    }
+
+    .kontejner{
+        margin-left:1px;
+        margin-right:1px;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+}
+
+@media screen and (max-width: 625px){
+    .slide3,.slide1{
+        background-position: top right;
+    }
+
+    .info ul li{
+        margin-left: -40px;
+    }
+}
