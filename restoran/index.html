@@ -1,0 +1,1135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <title>Excellent</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+
+    <!-- Font awesome -->
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">   
+    <!-- Theme color -->
+    <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">  
+    <link href="assets/css/jquery-ui-1.7.2.custom.css" rel="stylesheet" type="text/css">   
+
+    <!-- Main style sheet -->
+    <link href="style.css" rel="stylesheet">    
+
+   
+    <!-- Google Fonts -->
+
+    <!-- Prata for body  -->
+    <link href='https://fonts.googleapis.com/css?family=Prata' rel='stylesheet' type='text/css'>
+    <!-- Tangerine for small title -->
+    <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>   
+    <!-- Open Sans for title -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    
+    
+
+  
+
+  </head>
+  <body>
+
+  <!--START SCROLL TOP BUTTON -->
+    <a class="scrollToTop" href="#" id="scrollUp">
+      <i class="fa fa-angle-up"></i>
+    </a>
+  <!-- END SCROLL TOP BUTTON -->
+
+  <!-- Start header section -->
+  <header id="mu-header">  
+    <nav class="navbar navbar-default mu-main-navbar" role="navigation">  
+      <div class="container">
+        <div class="navbar-header">
+          <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Meni</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <!-- LOGO -->       
+
+           <!--  Text based logo  -->
+          <a class="navbar-brand" href="index.html"><span>Excellent</span></a> 
+
+		      <!--  Image based logo  -->
+          <!-- <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="Logo img"></a>  -->
+         
+
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">
+            <li><a href="index.html">Pocetna</a></li>
+            <li><a href="#mu-about-us">O nama</a></li>                       
+            <li><a href="#mu-restaurant-menu">Meni</a></li>                       
+            <li><a href="#mu-reservation">Rezervacija</a></li>                       
+            <li><a href="#mu-gallery">Galerija</a></li>
+            <li><a href="#mu-chef">Autor</a></li> 
+            <li><a href="#mu-contact">Kontakt</a></li> 
+          </ul>                            
+        </div><!--/.nav-collapse -->       
+      </div>          
+    </nav> 
+  </header>
+  <!-- End header section -->
+ 
+
+  <!-- Start slider  -->
+  <section id="mu-slider">
+    <div class="mu-slider-area"> 
+      <div class="mu-top-slider">
+        <div class="mu-top-slider-single" id="box1">
+          <img src="assets/img/pozadina1.jpg" alt="Restoran ugao 1" id="slider">
+          <div class="mu-top-slider-content" id="innerBox">
+            <span class="mu-slider-small-title" id="naslov"></span>
+            <h2 class="mu-slider-title" id="naslov2">Restoran</h2>
+            <p id="paragraf"></p>    
+            <a href="#mu-reservation" class="mu-readmore-btn mu-reservation-btn">Rezervišite sto</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End slider  -->
+
+  <!-- Start About us -->
+  <section id="mu-about-us">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-about-us-area">
+
+            <div class="mu-title">
+              <span class="mu-subtitle">Otkrijte</span>
+              <h2>O nama</h2>
+            </div>
+
+            <div class="row drzac">
+              <div class="col-md-6 fade-left levo-minus-280" >
+               <div class="mu-about-us-left ">     
+                <img src="assets/img/about-us.png" alt="img">           
+                </div>
+              </div>
+              <div class="col-md-6 fade-right desno-minus-280">
+                 <div class="mu-about-us-right ">
+                  <p>Nakon dugogodišnjeg iskustva u ugostiteljstvu, sa puno ljubavi i entuzijazma smo otvorili restoran Excellent.</p>                              
+                  <p>Restoran je otvoren 2007. godine i sa puno ljubavi sve ove godine služimo najbolju hranu.</p>
+                  <p>Kuhinja</p>  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End About us -->
+
+  <!-- Start Counter Section -->
+  <section id="mu-counter">
+    <div class="mu-counter-overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="mu-counter-area" id="lista">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Counter Section --> 
+
+  <!-- Start Restaurant Menu -->
+  <section id="mu-restaurant-menu">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-restaurant-menu-area">
+
+            <div class="mu-title">
+              <span class="mu-subtitle">Otkrijte</span>
+              <h2>Nas meni</h2>
+            </div>
+            
+            <div class="mu-restaurant-menu-content">
+              <ul class="nav nav-tabs mu-restaurant-menu">
+                <li class="active"><a href="#dorucak" data-toggle="tab">Dorucak</a></li>
+                <li><a href="#obroci" data-toggle="tab">Obroci</a></li>
+                <li><a href="#supe" data-toggle="tab">Supe</a></li>
+                <li><a href="#dezerti" data-toggle="tab">Dezerti</a></li>
+                <li><a href="#pica" data-toggle="tab">Pica</a></li>
+              </ul>
+
+              <!-- Tab panes -->
+              <div class="tab-content">
+                <div class="tab-pane fade in active" id="dorucak">
+                  <div class="mu-tab-content-area">
+                    <div class="row">
+
+                      <div class="col-md-6">
+                        <div class="mu-tab-content-left">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#" class="disabled">
+                                    <img class="media-object" src="assets/img/Breakfast/Dorucak1.jpg" alt="Slika dorucak 1">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#" class="disabled">English Breakfast</a></h4>
+                                </br>
+                                  <span class="mu-menu-price">$15.85</span>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#" class="disabled">
+                                    <img class="media-object" src="assets/img/Breakfast/Dorucak2.jpg" alt="Slika dorucak 2">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#" class="disabled">Chines Breakfast</a></h4>
+                                </br>
+                                  <span class="mu-menu-price">$11.95</span>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#" class="disabled">
+                                    <img class="media-object" src="assets/img/Breakfast/Dorucak3.jpg" alt="Slike dorucak 3">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#" class="disabled">Indian Breakfast</a></h4>
+                                </br>
+                                  <span class="mu-menu-price">$15.85</span>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>   
+                        </div>
+                      </div>
+
+                     <div class="col-md-6">
+                       <div class="mu-tab-content-right">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#" class="disabled">
+                                    <img class="media-object" src="assets/img/Breakfast/Dorucak4.jpg" alt="Slike dorucak 4">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#" class="disabled">English Breakfast</a></h4>
+                                </br>
+                                  <span class="mu-menu-price">$15.85</span>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#" class="disabled">
+                                    <img class="media-object" src="assets/img/Breakfast/Dorucak5.jpg" alt="Slike dorucak 5">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#" class="disabled">Chines Breakfast</a></h4>
+                                </br>
+                                  <span class="mu-menu-price">$11.95</span>
+                                  
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#" class="disabled">
+                                    <img class="media-object" src="assets/img/Breakfast/Dorucak6.jpg" alt="Slike dorucak 6">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#" class="disabled">Indian Breakfast</a></h4>
+                                </br>
+                                  <span class="mu-menu-price">$15.85</span>   
+                                </div>
+                              </div>
+                            </li>
+                          </ul>   
+                       </div>
+                     </div>
+
+                   </div>
+                 </div>
+                </div>
+
+                <div class="tab-pane fade" id="obroci">
+                  <div class="mu-tab-content-area">
+                    <div class="row">
+
+                      <div class="col-md-6">
+                        <div class="mu-tab-content-left">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#" class="disabled">
+                                    <img class="media-object" src="assets/img/Meal/Obrok1.jpg" alt="Slika obrok 1">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#" class="disabled">English Breakfast</a></h4>
+                                </br>
+                                  <span class="mu-menu-price">$15.85</span>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#" class="disabled">
+                                    <img class="media-object" src="assets/img/Meal/Obrok2.jpg" alt="Slika obrok 2">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#" class="disabled">Chines Breakfast</a></h4>
+                                </br>
+                                  <span class="mu-menu-price">$11.95</span>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#" class="disabled">
+                                    <img class="media-object" src="assets/img/Meal/Obrok3.jpg" alt="Slika obrok 3">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#" class="disabled">Indian Breakfast</a></h4>
+                                </br>
+                                  <span class="mu-menu-price">$15.85</span>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>   
+                        </div>
+                      </div>
+
+                     <div class="col-md-6">
+                       <div class="mu-tab-content-right">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#" class="disabled">
+                                    <img class="media-object" src="assets/img/Meal/Obrok4.jpg" alt="Slika obrok 4">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#" class="disabled">English Breakfast</a></h4>
+                                </br>
+                                  <span class="mu-menu-price">$15.85</span>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#" class="disabled">
+                                    <img class="media-object" src="assets/img/Meal/Obrok5.jpg" alt="Slika obrok 5">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#" class="disabled">Chines Breakfast</a></h4>
+                                </br>
+                                  <span class="mu-menu-price">$11.95</span>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#" class="disabled">
+                                    <img class="media-object" src="assets/img/Meal/Obrok6.jpg" alt="Slike obrok 6">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#" class="disabled">Indian Breakfast</a></h4>
+                                </br>
+                                  <span class="mu-menu-price">$15.85</span>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>   
+                       </div>
+                     </div>
+
+                   </div>
+                 </div>
+                </div>
+
+                <div class="tab-pane fade" id="supe">
+                  <div class="mu-tab-content-area">
+                    <div class="row">
+
+                      <div class="col-md-6">
+                        <div class="mu-tab-content-left">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#" class="disabled">
+                                    <img class="media-object" src="assets/img/Soup/Supa1.jpg" alt="Slika supa 1">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#" class="disabled">English Breakfast</a></h4>
+                                </br>
+                                  <span class="mu-menu-price">$15.85</span>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#" class="disabled">
+                                    <img class="media-object" src="assets/img/Soup/Supa2.jpg" alt="Slika supa 2">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#" class="disabled">Chines Breakfast</a></h4>
+                                </br>
+                                  <span class="mu-menu-price">$11.95</span>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#" class="disabled">
+                                    <img class="media-object" src="assets/img/Soup/Supa3.jpg" alt="Slika supa 3">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#" class="disabled">Indian Breakfast</a></h4>
+                                </br>
+                                  <span class="mu-menu-price">$15.85</span>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>   
+                        </div>
+                      </div>
+
+                     <div class="col-md-6">
+                       <div class="mu-tab-content-right">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#" class="disabled">
+                                    <img class="media-object" src="assets/img/Soup/Supa4.jpg" alt="Slika supa 4">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#" class="disabled">English Breakfast</a></h4>
+                                </br>
+                                  <span class="mu-menu-price">$15.85</span>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#" class="disabled">
+                                    <img class="media-object" src="assets/img/Soup/Supa5.jpg" alt="Slika supa 5">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#" class="disabled">Chines Breakfast</a></h4>
+                                </br>
+                                  <span class="mu-menu-price">$11.95</span>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#" class="disabled">
+                                    <img class="media-object" src="assets/img/Soup/Supa6.jpg" alt="Slika supa 6">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#" class="disabled">Indian Breakfast</a></h4>
+                                </br>
+                                  <span class="mu-menu-price">$15.85</span>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>   
+                       </div>
+                     </div>
+
+                   </div>
+                 </div>
+                </div>
+
+                <div class="tab-pane fade" id="dezerti">
+                  <div class="mu-tab-content-area">
+                    <div class="row">
+
+                      <div class="col-md-6">
+                        <div class="mu-tab-content-left">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#" class="disabled">
+                                    <img class="media-object" src="assets/img/Desserts/Dezerti1.jpg" alt="Slika dezert 1">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#" class="disabled">English Breakfast</a></h4>
+                                </br>
+                                  <span class="mu-menu-price">$15.85</span>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#" class="disabled">
+                                    <img class="media-object" src="assets/img/Desserts/Dezerti2.jpg" alt="Slika dezert 2">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#" class="disabled">Chines Breakfast</a></h4>
+                                </br>
+                                  <span class="mu-menu-price">$11.95</span>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#" class="disabled">
+                                    <img class="media-object" src="assets/img/Desserts/Dezerti3.jpg" alt="Slika dezert 3">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#" class="disabled">Indian Breakfast</a></h4>
+                                </br>
+                                  <span class="mu-menu-price">$15.85</span>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>   
+                        </div>
+                      </div>
+
+                     <div class="col-md-6">
+                       <div class="mu-tab-content-right">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#" class="disabled">
+                                    <img class="media-object" src="assets/img/Desserts/Dezerti4.jpg" alt="Slika dezert 4">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#" class="disabled">English Breakfast</a></h4>
+                                </br>
+                                  <span class="mu-menu-price">$15.85</span>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#" class="disabled">
+                                    <img class="media-object" src="assets/img/Desserts/Dezerti5.jpg" alt="Slika dezert 5">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#" class="disabled">Chines Breakfast</a></h4>
+                                </br>
+                                  <span class="mu-menu-price">$11.95</span>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#" class="disabled">
+                                    <img class="media-object" src="assets/img/Desserts/Dezerti6.jpg" alt="Slika dezert 6">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#" class="disabled">Indian Breakfast</a></h4>
+                                </br>
+                                  <span class="mu-menu-price">$15.85</span>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>   
+                       </div>
+                     </div>
+
+                   </div>
+                 </div>
+                </div>
+
+                <div class="tab-pane fade" id="pica">
+                  <div class="mu-tab-content-area">
+                    <div class="row">
+
+                      <div class="col-md-6">
+                        <div class="mu-tab-content-left">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#" class="disabled">
+                                    <img class="media-object" src="assets/img/Drinks/Pice1.jpg" alt="Slika pica 1">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#" class="disabled">English Breakfast</a></h4>
+                                </br>
+                                  <span class="mu-menu-price">$15.85</span>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#" class="disabled">
+                                    <img class="media-object" src="assets/img/Drinks/Pice2.jpg" alt="Slika pica 2">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#" class="disabled">Chines Breakfast</a></h4>
+                                </br>
+                                  <span class="mu-menu-price">$11.95</span>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#" class="disabled">
+                                    <img class="media-object" src="assets/img/Drinks/Pice3.jpg" alt="Slika pica 3">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#" class="disabled">Indian Breakfast</a></h4>
+                                </br>
+                                  <span class="mu-menu-price">$15.85</span>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>   
+                        </div>
+                      </div>
+
+                     <div class="col-md-6">
+                       <div class="mu-tab-content-right">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#" class="disabled">
+                                    <img class="media-object" src="assets/img/Drinks/Pice4.jpg" alt="Slika pica 4">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#" class="disabled">English Breakfast</a></h4>
+                                </br>
+                                  <span class="mu-menu-price">$15.85</span>
+                                  
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#" class="disabled">
+                                    <img class="media-object" src="assets/img/Drinks/Pice5.jpg" alt="Slika pica 5">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#" class="disabled">Chines Breakfast</a></h4>
+                                </br>
+                                  <span class="mu-menu-price">$11.95</span>
+                                  
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#" class="disabled">
+                                    <img class="media-object" src="assets/img/Drinks/Pice6.jpg" alt="Slika pica 6">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#" class="disabled">Indian Breakfast</a></h4>
+                                </br>
+                                  <span class="mu-menu-price">$15.85</span>
+                                  
+                                </div>
+                              </div>
+                            </li>
+                          </ul>   
+                       </div>
+                     </div>
+
+                   </div>
+                 </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Restaurant Menu -->
+
+  <!-- Start Reservation section -->
+  <section id="mu-reservation">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-reservation-area">
+
+            <div class="mu-title">
+              <span class="mu-subtitle">Rezervisite</span>
+            </div>
+
+            <div class="mu-reservation-content">
+
+
+              <div class="col-md-6">
+                <div class="mu-reservation-left" id="mainDivForm">
+                  <form class="mu-reservation-form">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">                       
+                          <input type="text" class="form-control" placeholder="Ime i prezime:*" id="name">
+                          <span class="greska sakrij" id="upozorenjeIme">Unesite ime i prezime!</span>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">                        
+                          <input type="email" class="form-control" placeholder="Email:" id="email">
+                          <span class="greska sakrij" id="upozorenjeEmail">Unesite email; Email nije ispravnog formata</span>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">                        
+                          <input type="text" class="form-control" placeholder="Mobilni telefon:" id="telefon">
+                          <span class="greska sakrij" id="upozorenjeTelefon">Unesite mobilni telefon!</span>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <select class="form-control" id="brojOsoba">
+                            <option value="">Koliko osoba?</option>
+                            <option value="1 Osoba">1 Osoba</option>
+                            <option value="2 Osobe">2 Osobe</option>
+                            <option value="3 Osobe">3 Osobe</option>
+                            <option value="4 Osobe">4 Osobe</option>
+                            <option value="5 Osoba">5 Osoba</option>
+                            <option value="6 Osoba">6 Osoba</option>
+                            <option value="7 Osoba">7 Osoba</option>
+                            <option value="8 Osoba">8 Osoba</option>
+                            <option value="9 Osoba">9 Osoba</option>
+                            <option value="10 Osoba">10 Osoba</option>
+                          </select>
+                          <span class="greska sakrij" id="upozorenjeOsoba">Izaberite broj osoba!</span>                      
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <input type="date" class="form-control" id="date" placeholder="Datum" id="datum"> 
+                          <span class="greska sakrij">Izaberite datum!</span>             
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <textarea class="form-control" cols="30" rows="10" placeholder="Vasa poruka:" maxlength="300" id="napomena"></textarea>
+                          <span class="greska sakrij" id="upozorenjeText">Unesite poruku!</span>
+                        </div>
+                      </div>
+                      <button type="submit" class="mu-readmore-btn" id="form-submit">Rezervisi</button>
+                    </div>
+                  </form>    
+                </div>
+              </div>
+
+              <div class="col-md-5 col-md-offset-1">
+                <div class="mu-reservation-right">
+                  <div class="mu-opening-hour">
+                    <h2>Radno vreme:</h2>
+                      <ul class="list-unstyled">
+                        <li>
+                            <p>Ponedeljak &amp; Utorak</p>
+                            <p>09:00 - 16:00 </p>
+                        </li>
+                        <li>
+                            <p>Sreda &amp; Cetvrtak</p>
+                            <p>09:00 - 00:00</p>
+                        </li>
+                        <li>
+                            <p>Petak &amp; Subota</p>
+                            <p>09:00 - 00:00</p>
+                        </li>
+                        <li>
+                            <p>Nedelja</p>
+                            <p>09:00 - 23:00</p>
+                        </li>
+                      </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>  
+  <!-- End Reservation section -->
+
+  <!-- Start Gallery -->
+  <section id="mu-gallery">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-gallery-area">
+
+            <div class="mu-title">
+              <span class="mu-subtitle">Galerija</span>
+              <h2> </h2>
+            </div>
+
+            <div class="mu-gallery-content">
+            
+              <!-- Start gallery image -->
+              <div class="mu-gallery-body">
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4">
+                    <div class="mu-single-gallery-item">
+	                    <figure class="mu-single-gallery-img">
+	                      <a class="mu-imglink" href="assets/img/gallery/1.jpg">
+                          <img alt="img" src="assets/img/gallery/1.jpg">
+                           <div class="mu-single-gallery-info">
+                              <img class="mu-view-btn" src="assets/img/plus.png" alt="plus icon img">
+                          </div> 
+                        </a>
+	                    </figure>            
+                  	</div>
+                </div>
+                <!-- End single gallery image -->
+
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4">
+                  	 <div class="mu-single-gallery-item">
+                        <figure class="mu-single-gallery-img">
+                            <img alt="img" src="assets/img/gallery/2.jpg"> 
+
+                        </figure>            
+                    </div>
+                </div>               
+                <!-- End single gallery image -->
+
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4">                  
+                  	 <div class="mu-single-gallery-item">
+                      <figure class="mu-single-gallery-img">
+                        <a class="mu-imglink" href="assets/img/gallery/3.jpg">
+                          <img alt="img" src="assets/img/gallery/3.jpg">
+                           <div class="mu-single-gallery-info">
+                              <img class="mu-view-btn" src="assets/img/plus.png" alt="plus icon img">
+                          </div> 
+                        </a>
+                      </figure>            
+                    </div>
+                </div>               
+                <!-- End single gallery image -->
+
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4">                  
+                  	<div class="mu-single-gallery-item">
+                      <figure class="mu-single-gallery-img">
+                        <a class="mu-imglink" href="assets/img/gallery/4.jpg">
+                          <img alt="img" src="assets/img/gallery/4.jpg">
+                           <div class="mu-single-gallery-info">
+                              <img class="mu-view-btn" src="assets/img/plus.png" alt="plus icon img">
+                          </div> 
+                        </a>
+                      </figure>            
+                    </div>
+                </div>
+                <!-- End single gallery image -->
+
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4">                  
+                  	<div class="mu-single-gallery-item">
+                      <figure class="mu-single-gallery-img">
+                        <a class="mu-imglink" href="assets/img/gallery/5.jpg">
+                          <img alt="img" src="assets/img/gallery/5.jpg">
+                           <div class="mu-single-gallery-info">
+                              <img class="mu-view-btn" src="assets/img/plus.png" alt="plus icon img">
+                          </div> 
+                        </a>
+                      </figure>            
+                    </div>
+                </div>               
+                <!-- End single gallery image -->  
+
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4">                  
+                   <div class="mu-single-gallery-item">
+                      <figure class="mu-single-gallery-img">
+                        <a class="mu-imglink" href="assets/img/gallery/6.jpg">
+                          <img alt="img" src="assets/img/gallery/6.jpg">
+                           <div class="mu-single-gallery-info">
+                              <img class="mu-view-btn" src="assets/img/plus.png" alt="plus icon img">
+                          </div> 
+                        </a>
+                      </figure>            
+                    </div>
+                </div>
+                <!-- End single gallery image -->
+
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4">                  
+                  	<div class="mu-single-gallery-item">
+                      <figure class="mu-single-gallery-img">
+                        <a class="mu-imglink" href="assets/img/gallery/7.jpg">
+                          <img alt="img" src="assets/img/gallery/7.jpg">
+                           <div class="mu-single-gallery-info">
+                              <img class="mu-view-btn" src="assets/img/plus.png" alt="plus icon img">
+                          </div> 
+                        </a>
+                      </figure>            
+                    </div>
+                </div>               
+                <!-- End single gallery image -->
+
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4">                  
+                  	<div class="mu-single-gallery-item">
+                      <figure class="mu-single-gallery-img">
+                        <a class="mu-imglink" href="assets/img/gallery/8.jpg">
+                          <img alt="img" src="assets/img/gallery/8.jpg">
+                           <div class="mu-single-gallery-info">
+                              <img class="mu-view-btn" src="assets/img/plus.png" alt="plus icon img">
+                          </div> 
+                        </a>
+                      </figure>            
+                    </div>
+                </div>               
+                <!-- End single gallery image -->
+
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4">                  
+                  	<div class="mu-single-gallery-item">
+                      <figure class="mu-single-gallery-img">
+                        <a class="mu-imglink" href="assets/img/gallery/9.jpg">
+                          <img alt="img" src="assets/img/gallery/9.jpg">
+                           <div class="mu-single-gallery-info">
+                              <img class="mu-view-btn" src="assets/img/plus.png" alt="plus icon img">
+                          </div> 
+                        </a>
+                      </figure>            
+                    </div>
+                </div>
+                <!-- End single gallery image -->  
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Gallery -->
+  
+  <!-- Start Author Section -->
+  <section id="mu-chef">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12" >
+          <div class="mu-about-us-area">
+
+            <div class="mu-title">
+              <span class="mu-subtitle">Otkrijte</span>
+              <h2>O autoru</h2>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6">
+               <div class="mu-about-us-left">     
+                <img src="assets/img/about-us.png" alt="img">           
+                </div>
+              </div>
+              <div class="col-md-6">
+                 <div class="mu-about-us-right">
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam minus aliquid, itaque illum assumenda repellendus dolorem, dolore numquam totam saepe, porro delectus, libero enim odio quo. Explicabo ex sapiente sit eligendi, facere voluptatum! Quia vero rerum sunt porro architecto corrupti eaque corporis eum, enim soluta, perferendis dignissimos, repellendus, beatae laboriosam.</p>                              
+                  <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia.</li>                    
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia.</li>
+                  </ul>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque similique molestias est quod reprehenderit, quibusdam nam qui, quam magnam.</p>  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Author Section -->
+
+ 
+
+  <!-- Start Contact section -->
+  <section id="mu-contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-contact-area">
+
+            <div class="mu-title">
+              <span class="mu-subtitle">Kontaktirajte</span>
+              <h2>nas</h2>
+            </div>
+
+            <div class="mu-contact-content">
+              <div class="row">
+
+                <div class="col-md-6">
+                  <div class="mu-contact-left">
+                    <!-- Email message div -->
+                    <div id="form-messages"></div>
+                    <!-- Start contact form -->
+                    <form id="form" method="post" action="" class="mu-contact-form">
+                      <div class="form-group">
+                        <label for="name">Ime</label>
+                        <input type="text" class="form-control" id="name2" name="name" placeholder="Ime" required>
+                        <span class="greska sakrij" id="upozorenjeIme2">Pogresno ime</span>
+                      </div>
+                      <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email2" name="email" placeholder="Email" required>
+                        <span class="greska sakrij" id="upozorenjeEmail2">Pogresan email</span>
+                      </div>                      
+                      <div class="form-group">
+                        <label for="subject">Tema</label>
+                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Tema" required>
+                        <span id="upozorenjeSubject" class="greska sakrij">Unesite temu</span>
+                      </div>
+                      <div class="form-group">
+                        <label for="message">Poruka</label>                        
+                        <textarea class="form-control" id="message" name="message"  cols="30" rows="10" placeholder="Unesite vasu poruku" required></textarea>
+                        <span id="upozorenjeText2" class="greska sakrij">Unesite poruku!</span>
+                      </div>                      
+                      <button type="submit" class="mu-send-btn" id="form-submit2">Posalji</button>
+                    </form>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="mu-contact-right">
+                    <div class="mu-contact-widget">
+                      <h3>Kancelarija</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia temporibus corporis ea non consequatur porro corrupti hic voluptatibus assumenda, doloribus.</p>
+                      <address>
+                        <p><i class="fa fa-phone"></i> 064 047-2701</p>
+                        <p><i class="fa fa-envelope-o"></i>nenadjevtic02@gmail.com</p>
+                        <p><i class="fa fa-map-marker"></i>Zdravka Celara 16</p>
+                      </address>
+                    </div>
+                    <div class="mu-contact-widget">
+                      <h3>Radno vreme</h3>                      
+                      <address>
+                        <p><span>Ponedeljak - Petak</span> 09.00 do 00:00</p>
+                        <p><span>Subota</span> 09.00 am do 22.00</p>
+                        <p><span>Nedelja</span> 10.00 do 00:00</p>
+                      </address>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact section -->
+
+  <!-- Start Map section -->
+  <section id="mu-map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2001.39998979369!2d20.48341802750675!3d44.81327229920063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7a9609031735%3A0xc17ed71f59ac4725!2z0JLQuNGB0L7QutCwINCY0KbQoiDRiNC60L7Qu9Cw!5e0!3m2!1ssr!2srs!4v1639053671247!5m2!1ssr!2srs" width="100" height="100%" frameborder="0"allowfullscreen></iframe>
+    
+  </section>
+  <!-- End Map section -->
+
+  <!-- Start Footer -->
+  <footer id="mu-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+        <div class="mu-footer-area">
+           <div class="mu-footer-social">
+            <a href="#"><span class="fa fa-facebook"></span></a>
+            <a href="#"><span class="fa fa-twitter"></span></a>
+            <a href="#"><span class="fa fa-google-plus"></span></a>
+            <a href="#"><span class="fa fa-linkedin"></span></a>
+            <a href="#"><span class="fa fa-youtube"></span></a>
+          </div>
+          <div class="mu-footer-copyright">
+            <p>&copy; Copyright <a rel="nofollow" href="http://markups.io">markups.io</a>. All right reserved.</p>
+          </div>         
+        </div>
+      </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+  
+
+  <!--Biblioteke-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"type="text/javascript" charset="utf-8"></script>
+  <script src="assets/js/customLibrary.js"type="text/javascript" charset="utf-8"></script> 
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <!--JS fajlovi-->
+  <script type="text/javascript" src="assets/js/script.js"type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>
