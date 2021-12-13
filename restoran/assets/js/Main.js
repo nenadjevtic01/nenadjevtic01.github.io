@@ -272,7 +272,7 @@ function proveriEmail() {
     return true;
   }
 }
-let uzorakTelefon = /^(\+381)?(\s|-)?6(([0-6]|[8-9])\d{8}|(77|78)\d{7}){1}$/;
+let uzorakTelefon = /^06[0-689][0-9]{6,7}$/;
 
 let telefonTxt = document.getElementById("telefon");
 telefonTxt.addEventListener("blur", proveriTelefon);
