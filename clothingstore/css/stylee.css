@@ -1,0 +1,248 @@
+html{
+    scroll-behavior: smooth;
+  }
+
+.strike{
+    text-decoration: line-through 10%;
+    text-decoration-style: double;
+    size:10px;
+}
+
+.newPrice{
+    color:#e30000 !important; 
+}
+
+
+.iskljucen{
+    pointer-events: none;
+}
+
+.crveno{
+    color:#e30000 !important;
+}
+
+.hidden{
+    visibility: hidden !important;
+}
+
+.prviRedKorpa{
+    background-color: #ebebeb;
+    border-top:0px !important;
+}
+
+.textareaHeight{
+    height:190px !important;
+}
+
+.korpaItem{
+    background-color: #ebebeb;
+    border-top: 2px solid #000;
+}
+
+#prikazKorpe{
+    overflow: hidden;
+    border-radius: 10px;
+    color:#000 !important;
+}
+
+.malaSlikaKorpa{
+    max-width:100px;
+}
+
+.pixel-checkbox{
+    border-radius: 25% !important;
+    background-color: #fff !important;
+}
+
+.button-header{
+    border-color:#c2c2c2;
+}
+
+.btn-plus, .btn-minus {
+    width: 30px;
+    height: 30px;
+    background-color: #E1E8EE;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.linkPointer{
+    cursor: default;
+}
+
+
+.kolicinaKorpa{
+    -webkit-appearance: none;
+    border: none;
+    text-align: center;
+    width: 32px;
+    font-size: 16px;
+    color: #43484D;
+    font-weight: 300;
+}
+
+.strelicePrikaz::-webkit-inner-spin-button, 
+.strelicePrikaz::-webkit-outer-spin-button{
+    opacity: 1;
+    padding: 10px;
+}
+
+.input-text{
+    border-radius:5px;
+    overflow: hidden !important;
+    padding-left: 0px !important;
+}
+
+
+.listaSocial{
+    font-size:25px !important;
+    padding-left: 10px;
+}
+
+.listaSocial a, .tp_widgets p{
+    color:#d4d4d4 !important;
+}
+
+.listaSocial a:hover{
+    color:#384aeb !important;
+}
+
+.single-footer-widget .sm-head span{
+    background-color: transparent !important;
+    color: #d4d4d4;
+}
+
+.scrollToTop{
+    bottom: 60px;
+    color: #fff;
+    display: none;
+    font-size: 30px;
+    line-height: 50px;
+    position: fixed;
+    right: 20px;
+    text-align: center;
+    text-decoration: none;
+    width: 55px;
+    z-index: 999;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    height: 55px;
+    border-radius: 50%;
+  }
+
+  .klasaSlika{
+      display:flex;
+      justify-content: center;
+      align-content: center;
+  }
+  
+  
+  .scrollToTop:hover,
+  .scrollToTop:focus {
+    color: #fff;
+  }
+
+  .scrollToTop {
+    background-color: #384aeb;
+    border: 2px solid #384aeb;
+}
+.list a{
+    color:#d4d4d4 !important;
+}
+
+.list a:hover{
+    color:#384aeb !important;
+}
+
+.offer{
+    background:url("../img/index/banner-land.png") right center no-repeat;
+    background-size:cover;
+}
+
+.listaCena a, .listaCena a:hover{
+    cursor: default !important;
+    color:#222 !important;
+}
+
+.checkoutProizvodi a{
+    color:#384aeb !important;
+}
+
+.single-search-product img{
+    max-width:150px !important;
+}
+
+.kolicinaKorpa::-webkit-outer-spin-button,
+.kolicinaKorpa::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.centar{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input[type=number]{
+    text-align: center;
+}
+    
+@media (min-width: 1200px){
+    .offer{
+        background-size:100% 100%;
+    }
+}
+    .offer__content{
+        padding:100px 0 110px 0;
+    }
+    
+    @media (min-width: 1000px){
+        .offer__content{
+            padding:122px 0 135px 0;
+        }
+    }
+    
+    .offer__content h3{
+        font-size:35px;
+        font-weight:400;
+        margin-bottom:20px;
+    }
+    
+    @media (min-width: 650px){
+        .offer__content h3{
+            font-size:50px;
+            margin-bottom:25px;
+        }
+    }
+    .offer__content h4{
+        font-size:30px;
+    }
+    
+    .offer__content p{
+        color:#555555;
+    }
+
+    .kolicinaKorpa, .kolicinaKorpa:hover{
+        color:#222 !important;
+        float:left !important;
+        font-size:14px;
+    }
+    
+    @media only screen and (max-width: 990px){
+        .jedanProizvod{
+            display:flex;
+            align-items:center;
+            flex-direction:column;
+        }
+
+        .slikaProizvoda{
+            width:90% !important;
+        }
+    }
