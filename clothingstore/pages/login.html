@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+  	<meta name="keywords" content="flex , login , username , password, user, cart">
+	<meta name="description" content="Welcome to Flex shop, where you can buy all kind of cloth">
+	<meta name="author" content="Nenad Jevtić 60/20">
+ 	<title>Flex Shop - Login</title>
+ 	<link rel="icon" href="../img/icon.ico" type="image/ico">
+ 	<link rel="stylesheet" href="../vendors/bootstrap/bootstrap.min.css">
+ 	<link rel="stylesheet" href="../vendors/fontawesome/css/all.min.css">
+ 	<link rel="stylesheet" href="../vendors/themify-icons/themify-icons.css">
+ 	<link rel="stylesheet" href="../vendors/linericon/style.css">
+ 	<link rel="stylesheet" href="../vendors/owl-carousel/owl.theme.default.min.css">
+ 	<link rel="stylesheet" href="../vendors/owl-carousel/owl.carousel.min.css">
+ 	<link rel="stylesheet" href="../vendors/nice-select/nice-select.css">
+<!--   <link rel="stylesheet" href="../vendors/nouislider/nouislider.min.css"> -->
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/stylee.css">
+</head>
+<body>
+	<!--================ Start Header Menu Area =================-->
+	<a class="scrollToTop" href="#" id="scrollUp" style="display: none;">
+		<i class="fa fa-angle-up"></i>
+	</a>
+	<header class="header_area fixed">
+    <div class="main_menu">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand logo_h" href="../index.html"><img src="../img/logo.png" alt="Site logo Image"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+            <ul class="nav navbar-nav menu_nav ml-auto mr-auto" id="meni">
+              
+            </ul>
+
+            <ul class="nav-shop">
+              <li class="nav-item"><button><a href="cart.html"><i class="ti-shopping-cart"></i></a><span class="nav-shop__circle" id="numberOfProducts"></span></button> </li>
+              <li class="nav-item"><a class="button button-header" href="shop.html">Buy Now</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+	<!--================ End Header Menu Area =================-->
+  
+  <!-- ================ start banner area ================= -->	
+	<section class="blog-banner-area pozadinaLogin textLogin" id="category">
+			<div class="container h-100 shadowLogin">
+				<div class="blog-banner">
+					<div class="text-center">
+						<h1>Login</h1>
+						<nav aria-label="breadcrumb" class="banner-breadcrumb">
+        	    			<ol class="breadcrumb">
+        	      				<li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+        	      				<li class="breadcrumb-item active" aria-current="page">Login</li>
+        	    			</ol>
+        	  			</nav>
+					</div>
+				</div>
+    		</div>
+	</section>
+	<!-- ================ end banner area ================= -->
+  
+  <!--================Login Box Area =================-->
+	<section class="login_box_area section-margin">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="login_box_img">
+						<div class="hover">
+							<h4>New to our website?</h4>
+							<a class="button button-account" href="register.html">Create an Account</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="login_form_inner">
+						<h3>Log in to enter</h3>
+						<form class="row login_form" action="#/" id="contactForm" >
+							<div class="col-md-12 form-group">
+								<input type="text" class="form-control" id="username" name="username" placeholder="Username">
+								<span class="placeholder hidden" data-placeholder="Username" id="upozorenjeUsername">Enter username!</span>
+							</div>
+							<div class="col-md-12 form-group">
+								<input type="password" class="form-control" id="password" name="password" placeholder="Password">
+								<span class="placeholder hidden" data-placeholder="Password" id="upozorenjePassword">Enter password!</span>
+							</div>
+							<div class="col-md-12 form-group">
+								<div class="creat_account">
+									<input type="checkbox" id="f-option2" name="selector">
+									<label for="f-option2">Keep me logged in</label>
+								</div>
+							</div>
+							<div class="col-md-12 form-group">
+								<button type="button" class="button button-login w-100" id="btnLogIn">Log In</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================End Login Box Area =================-->
+
+
+
+  <!--================ Start footer Area  =================-->	
+  <footer class="footer">
+	<div class="footer-area">
+		<div class="container">
+			<div class="row section_gap">
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="single-footer-widget tp_widgets">
+						<h4 class="footer_title large_title">Our Mission</h4>
+						<p>
+							To understand and reconstruct the newest trends in fashion for men and women.
+						</p>
+						<p>
+							Flex shop aims to dress dynamic people and fashion lovers who are young at heart.
+						</p>
+					</div>
+				</div>
+				<div class="offset-lg-1 col-lg-2 col-md-6 col-sm-6">
+					<div class="single-footer-widget tp_widgets">
+						<h4 class="footer_title">Quick Links</h4>
+						<ul class="list">
+							<li><a href="../index.html">Home</a></li>
+							<li><a href="shop.html">Shop</a></li>
+							<li><a href="login.html">Login</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-6 col-sm-6">
+					<div class="single-footer-widget">
+						<h4 class="footer_title">Social</h4>
+						<ul class="listaSocial">
+							<li><a href="https://www.instagram.com/"  class="dugmePrikaz" data-id="IG" onmouseover="prikazSocial(this)" onmouseout="sakriSocial(this)"><i class="fa fa-instagram" ></i><span class="hidden" id="IG" style="font-size:18px"> Instagram</span></a></li>
+								<li><a href="https://www.facebook.com/" class="dugmePrikaz" data-id="FB" onmouseover="prikazSocial(this)" onmouseout="sakriSocial(this)"><i class="fa fa-facebook-square"></i><span class="hidden" id="FB" style="font-size:18px"> Facebook</span></a></li>
+								<li><a href="https://www.linkedin.com/" class="dugmePrikaz" data-id="LI" onmouseover="prikazSocial(this)" onmouseout="sakriSocial(this)"><i class="fa fa-linkedin"></i><span class="hidden" id="LI" style="font-size:18px"> Linkedin</span></a></li>
+								<li><a href="../documentation.pdf" class="dugmePrikaz" data-id="DOC" onmouseover="prikazSocial(this)" onmouseout="sakriSocial(this)"><i class="fa fa-file-pdf"></i><span class="hidden" id="DOC" style="font-size:18px"> Documentation</span></a></li>
+								<li><a href="../sitemap.xml" class="dugmePrikaz" data-id="SM" onmouseover="prikazSocial(this)" onmouseout="sakriSocial(this)"><i class="fa fa-sitemap"></i><span class="hidden" id="SM" style="font-size:18px"> Sitemap</span></a></li>
+								<li><a href="../robots.txt" class="dugmePrikaz" data-id="RT" onmouseover="prikazSocial(this)" onmouseout="sakriSocial(this)"><i class="fa fa-robot"></i><span class="hidden" id="RT" style="font-size:18px"> Robot</span></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="offset-lg-1 col-lg-3 col-md-6 col-sm-6">
+					<div class="single-footer-widget tp_widgets">
+						<h4 class="footer_title">Contact Us</h4>
+						<div class="ml-40">
+							<p class="sm-head">
+								<span class="fa fa-location-arrow"></span>
+								Head Office
+							</p>
+							<p>Zdravka Celara 16, Belgrade</p>
+
+							<p class="sm-head">
+								<span class="fa fa-phone"></span>
+								Phone Number
+							</p>
+							<p>
+								+381 64-047-2701 <br>
+							</p>
+
+							<p class="sm-head">
+								<span class="fa fa-envelope"></span>
+								Email
+							</p>
+							<p>
+								nenad.jevtic.60.20@ict.edu.rs <br>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer-bottom">
+		<div class="container">
+			<div class="row d-flex">
+				<p class="col-lg-12 footer-text text-center">
+			Copyright &copy; 2022 All rights reserved | <a href="https://nenadjevtic01.github.io/portfolio/" target="_blank" style="color:#c2c2c2">Nenad Jevtic 60/20</a>
+	  </p>
+			</div>
+		</div>
+	</div>
+</footer>
+	<!--================ End footer Area  =================-->
+
+
+
+	<script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+	<script src="../vendors/bootstrap/bootstrap.bundle.min.js"></script>
+	<script src="https://kit.fontawesome.com/41bd7e5f70.js" crossorigin="anonymous"></script>
+  	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+	<script src="../js/main.js"></script>
+	
+</body>
+</html>
