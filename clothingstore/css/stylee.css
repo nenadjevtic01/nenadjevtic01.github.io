@@ -96,6 +96,10 @@ html{
     border-color:#c2c2c2;
 }
 
+.skriven{
+    display: none;
+}
+
 .btn-plus, .btn-minus {
     width: 30px;
     height: 30px;
