@@ -21,6 +21,11 @@ a {
   text-decoration: none;
 }
 
+.education a{
+    display: initial !important;
+	text-decoration:underline!important;
+}
+
 body {
   background-color: #323633;
 }
